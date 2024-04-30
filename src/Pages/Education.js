@@ -19,10 +19,7 @@ const education = [
 function Education() {
   return (
     <div className="d-flex flex-column">
-      <h3 style={{ margin: "0% 22%", padding: " 2% 20%" }}>
-        {" "}
-        Academic Journey
-      </h3>
+      <h3 style={{ textAlign: "center" }}> Academic Journey</h3>
       <div className={styles.outerContainer}>
         {education.map((e, i) => (
           <div className={styles.container}>
