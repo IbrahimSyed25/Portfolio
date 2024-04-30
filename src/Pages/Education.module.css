@@ -9,6 +9,7 @@
   /* flex-basis: calc(50% - 10px); Set width for first two containers */
   margin-bottom: 20px; /* Add margin between rows */
   /* margin-top: 30px; */
+  border-radius: 10px;
 }
 .outerContainer {
   display: flex;
@@ -26,7 +27,7 @@
 }
 @media (max-width: 600px) {
   .container {
-    width: 100%; /* Set the width to full when the width is too small */
+    width: 90%; /* Set the width to full when the width is too small */
   }
 }
 .container {

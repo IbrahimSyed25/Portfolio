@@ -15,7 +15,7 @@
 }
 .summary {
   max-width: 45%;
-  padding: 6vh;
+  padding: 8vh;
   animation: slideIn 3s ease-in-out forwards;
   display: flex;
   flex-direction: column;

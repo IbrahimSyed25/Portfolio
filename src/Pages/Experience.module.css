@@ -59,3 +59,8 @@
     transform: translateX(0);
   }
 }
+@media (max-width: 600px) {
+  .container {
+    width: 90%; /* Set the width to full when the width is too small */
+  }
+}
