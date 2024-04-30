@@ -8,7 +8,7 @@
   overflow-wrap: normal;
   /* flex-basis: calc(50% - 10px); Set width for first two containers */
   margin-bottom: 20px; /* Add margin between rows */
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 .outerContainer {
   display: flex;
