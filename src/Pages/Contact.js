@@ -32,11 +32,11 @@ function Contact() {
               +91 9344090804
             </span>
           </div>
-          <div className="d-flex flex-wrap">
+          <div className="d-flex ">
             <img src="mail.png" className={styles.icon} alt="mobile" />
             <div className="d-flex flex-wrap" style={{ padding: "15px" }}>
-              <span className={styles.info}>syedibrahims25</span>
-              <span className={styles.info}>@outlook.com</span>
+              <span className={styles.info}>syedibrahims25@outlook.com</span>
+              {/* <span className={styles.info}>@outlook.com</span> */}
             </div>
           </div>
         </div>
