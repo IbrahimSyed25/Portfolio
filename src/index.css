@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  background: color #ede8f5;
+  /* color: black; */
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar-brand {
+  /* Prevent the brand from growing or shrinking */
+  flex: 0 0 auto; /* Prevent the brand from growing or shrinking */
+  width: 200px;
+  padding: 0 !important;
+  color: black !important;
+  margin-left: 16px;
+}
+
+/* .bg-dark {
+    --bs-bg-opacity: 0;
+  } */
+.navbar-brand span {
+  font-size: larger;
+  /* padding: 4%; */
+  margin-left: -8px;
+}
+.navbar {
+  background-color: white; /* Dark grey color for the Navbar */
+
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1100;
+  position: fixed;
+  top: 0;
+}
+
+.navbar-nav .nav-link {
+  color: black; /* Change to the desired color */
+}
+
+@keyframes moveForward {
+  from {
+    margin-top: 0px;
+  }
+  to {
+    margin-top: 10px; /* Adjust the amount to move the text forward */
+  }
+}
+
+.nav-link:hover {
+  animation: moveForward 0.5s ease forwards; /* Apply the animation on hover */
+  color: rgb(168, 168, 168) !important;
+}
+
+/* .nav-link:active {
+  color: #646466 !important;
+} */
+
+.clicked {
+  color: rgb(168, 168, 168);
+}
+#navbar-nav {
+  margin-right: 10px;
+  /* font-weight: bold; */
+}

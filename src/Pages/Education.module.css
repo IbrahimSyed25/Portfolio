@@ -1,0 +1,50 @@
+.container {
+  /* margin: 5% 35%; */
+  padding: 5%;
+  /* background-color: #eaeef9; */
+  width: calc(40% - 20px);
+  height: auto;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  overflow-wrap: normal;
+  /* flex-basis: calc(50% - 10px); Set width for first two containers */
+  margin-bottom: 20px; /* Add margin between rows */
+  margin-top: 30px;
+}
+.outerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+.container p {
+  margin-bottom: 0px;
+}
+.centeredContainer {
+  width: 40%; /* Take up full width */
+  display: flex;
+  justify-content: center; /* Center the container horizontally */
+}
+@media (max-width: 600px) {
+  .container {
+    width: 100%; /* Set the width to full when the width is too small */
+  }
+}
+.container {
+  animation: slideIn 3s forwards;
+}
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* .container:hover {
+  background-color: rgb(225, 223, 223);
+} */
+.container h4 {
+  color: rgb(93, 91, 91);
+}
