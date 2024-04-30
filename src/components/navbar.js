@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { Nav, Navbar } from "react-bootstrap";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function NavBar({ clickedLink, setClickedLink }) {
   // const [clickedLink, setClickedLink] = useState(null);
   const [expanded, setExpanded] = useState(false);
-  const location = useLocation();
+  // const location = useLocation();
 
   function handleClick(e) {
     setClickedLink(null);
