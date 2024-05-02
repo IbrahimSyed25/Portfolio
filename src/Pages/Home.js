@@ -29,11 +29,13 @@ function Home({ clickedLink, setClickedLink }) {
 
   const contactArray = [
     {
+      key: "Linkedin",
       src: "linkedin.png",
       info: "https://www.linkedin.com/in/syed-ibrahim-313a3b50/",
       alt: "linkedin",
     },
     {
+      key: "Github",
       src: "github.png",
       info: "https://github.com/IbrahimSyed25",
       alt: "github",
@@ -87,11 +89,11 @@ function Home({ clickedLink, setClickedLink }) {
             {contactArray.map(
               (c, i) =>
                 c.alt !== "Mobile" && (
-                  <>
-                    <a href={c.info}>
+                  <div key={c.alt}>
+                    <a href={c.info} key={c.alt}>
                       <img src={c.src} alt={c.alt} className={styles.icon} />
                     </a>
-                  </>
+                  </div>
                 )
             )}
           </div>

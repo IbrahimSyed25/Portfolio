@@ -61,7 +61,7 @@
     flex-basis: calc(100% - 10px);
   }
   .image {
-    max-width: 100%;
+    width: 80%;
     padding-bottom: 0;
   }
   .summary {

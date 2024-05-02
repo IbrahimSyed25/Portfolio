@@ -22,7 +22,7 @@ function Education() {
       <h3 style={{ textAlign: "center" }}> Academic Journey</h3>
       <div className={styles.outerContainer}>
         {education.map((e, i) => (
-          <div className={styles.container}>
+          <div className={styles.container} key={i}>
             <h4>
               {e.Course}({e.duration})
             </h4>
