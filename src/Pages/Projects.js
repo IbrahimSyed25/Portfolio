@@ -104,6 +104,26 @@ function Projects() {
             </a>
           </div>
         </div>
+        <div className={styles.container}>
+          <h5>Fitness Website</h5>
+          <img src="fitnesswebsite.png" alt="projects" />
+          <div className={styles.links}>
+            <a
+              href="https://reactgymguideweb.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button> Live Demo</button>
+            </a>
+            <a
+              href="https://github.com/IbrahimSyed25/FitnessExerciseApp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button> Github Link</button>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
