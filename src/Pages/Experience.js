@@ -9,7 +9,7 @@ const experienceArray = [
       " Integrated APIs: Connected front-end functionalities with RESTful APIs, ensuring seamless data flow and coordination with back-end services.",
       " Ensured Code Quality: Participated in code reviews, maintained high code quality, wrote clean, maintainable, and efficient code adhering to best practices.",
     ],
-    Duration: "Feb, 2023 -  Mar,2024",
+    Duration: "Feb, 2023 -  Mar, 2024",
   },
   {
     role: "RPA Developer",
@@ -20,7 +20,7 @@ const experienceArray = [
       " Testing and Debugging: Conducted comprehensive testing, debugging, and troubleshooting to ensure functionality and performance of automation solutions.",
       " Deployment and Support: Deployed and monitored RPA bots in production environments, providing ongoing support and maintenance.",
     ],
-    Duration: "Apr, 2021 -  Jan,2023",
+    Duration: "Apr, 2021 -  Jan, 2023",
   },
 ];
 function Experience() {
