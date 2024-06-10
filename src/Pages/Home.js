@@ -9,7 +9,7 @@ import Projects from "./Projects";
 import Education from "./Education";
 import Contact from "./Contact";
 const content =
-  "Versatile software engineer with 3 years of experience, including 2 years in RPA and 1 year in React.js front-end development. Expertise in automating processes, boosting operational efficiency, and building responsive web interfaces. Strong problem-solver with a knack for analyzing business needs and delivering innovative solutions. Proven ability to thrive in agile environments and collaborate with cross-functional teams.";
+  "Experienced RPA Developer with 3 years of expertise in Automation Anywhere. Proficient in designing, developing, and implementing automation solutions to optimize processes and enhance efficiency. Skilled in task bots, meta bots, web scraping, and document scraping. Expertise in Control Room management and adept at utilizing agile methodologies. Strong problem-solving abilities, excellent communication skills, and a commitment to continuous improvement.";
 
 function Home({ clickedLink, setClickedLink }) {
   // const location = useLocation();
