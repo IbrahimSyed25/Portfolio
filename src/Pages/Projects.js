@@ -45,18 +45,18 @@ function Projects() {
           </div>
         </div>
         <div className={styles.container}>
-          <h5>Steps Component</h5>
-          <img src="stepsComponent.png" alt="projects" />
+          <h5>React Quiz</h5>
+          <img src="quiz.png" alt="projects" />
           <div className={styles.links}>
             <a
-              href="https://stepscomponent.netlify.app/"
+              href="https://react-quiz15.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <button> Live Demo</button>
             </a>
             <a
-              href="https://github.com/IbrahimSyed25/stepscomponent"
+              href="https://github.com/IbrahimSyed25/ReactQuiz"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -5,7 +5,7 @@ const skills = [
     info: ["HTML", "CSS", "Bootstrap", "JavaScript", "ReactJS"],
   },
   { button: "Database", info: ["SQL", "MySQL"] },
-  { button: "RPA", info: ["Automation Anywhere", "Power Automate"] },
+  { button: "RPA", info: ["Automation Anywhere", "UIPath"] },
   { button: "Other", info: ["Python"] },
 ];
 function MainSkills() {
